@@ -81,6 +81,28 @@ body {
         /* Add bottom margin for spacing */
     }
 }
+/* Hide the navbar brand on large screens */
+.navbar-brand {
+    display: none;
+}
+
+/* Show the navbar brand on small screens */
+@media (max-width: 767px) {
+    .navbar-brand {
+        display: block;
+    }
+}
+ /* General margin for the buttons */
+.navbar-text {
+    margin-left: 234px;
+}
+        
+/* No margin on mobile screens */
+@media (max-width: 767px) {
+    .navbar-text {
+        margin-left: 0;
+    }
+}
 /* navbar style end */
 
 /* main content start */
