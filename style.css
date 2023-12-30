@@ -102,6 +102,10 @@ body {
     .navbar-text {
         margin-left: 0;
     }
+    /* Hide the desktop buttons on mobile */
+    .desktop-buttons {
+        display: none;
+    }
 }
 /* navbar style end */
 
